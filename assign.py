@@ -272,7 +272,7 @@ def main():
               ('a', 't2'): 1, ('b', 't2'): 3, ('c', 't2'): 2}
         
     # Optional hard assignments (map of agent: set of tasks)
-    hard_assignment = {}#{'thorsten': {'rogier'}}
+    hard_assignment = {}
 
     # Calculate maximum assignment
     GeneralizedAssignment(agents, tasks, lambda a: agent_budget[a], agent_cost,
